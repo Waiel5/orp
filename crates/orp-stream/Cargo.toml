@@ -1,0 +1,22 @@
+[package]
+name = "orp-stream"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+orp-proto = { path = "../orp-proto" }
+orp-storage = { path = "../orp-storage" }
+orp-audit = { path = "../orp-audit" }
+serde = { workspace = true }
+serde_json = { workspace = true }
+chrono = { workspace = true }
+uuid = { workspace = true }
+async-trait = { workspace = true }
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+tracing = { workspace = true }
+tokio = { workspace = true }
+rocksdb = { version = "0.22", features = ["lz4"] }
+
+[dev-dependencies]
+tempfile = "3"
