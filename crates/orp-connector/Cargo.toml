@@ -1,0 +1,23 @@
+[package]
+name = "orp-connector"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+orp-proto = { path = "../orp-proto" }
+serde = { workspace = true }
+serde_json = { workspace = true }
+chrono = { workspace = true }
+uuid = { workspace = true }
+async-trait = { workspace = true }
+thiserror = { workspace = true }
+tracing = { workspace = true }
+tokio = { workspace = true }
+reqwest = { version = "0.12", features = ["json"] }
+quick-xml = { version = "0.37", features = ["serialize"] }
+# NMEA connector: serial port access (Linux/macOS /dev/ttyUSB*)
+# The serial feature falls back to raw file IO on platforms without tokio-serial.
+# Uncomment to enable proper baud-rate control via tokio-serial:
+# tokio-serial = { version = "5", optional = true }
+tokio-tungstenite = { version = "0.21", features = ["native-tls"] }
+futures-util = "0.3"
