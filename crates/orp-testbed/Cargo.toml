@@ -1,0 +1,29 @@
+[package]
+name = "orp-testbed"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+orp-proto = { path = "../orp-proto" }
+orp-storage = { path = "../orp-storage" }
+serde = { workspace = true }
+serde_json = { workspace = true }
+chrono = { workspace = true }
+uuid = { workspace = true }
+rand = { workspace = true }
+tokio = { workspace = true }
+
+[dev-dependencies]
+criterion = { version = "0.5", features = ["html_reports"] }
+orp-query = { path = "../orp-query" }
+orp-stream = { path = "../orp-stream" }
+tempfile = "3"
+uuid = { workspace = true }
+
+[[bench]]
+name = "query_latency"
+harness = false
+
+[[bench]]
+name = "stream_throughput"
+harness = false
