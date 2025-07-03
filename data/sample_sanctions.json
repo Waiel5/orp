@@ -1,0 +1,227 @@
+{
+  "_comment": "ORP sample OFAC SDN sanctions data — fictional vessel names, real format. For testing only.",
+  "generated": "2024-01-15T00:00:00Z",
+  "source": "ORP Test Dataset v1.0",
+  "entries": [
+    {
+      "name": "SHADOW TIDE",
+      "sdn_type": "vessel",
+      "programs": ["IRAN"],
+      "aliases": ["SHADOW WAVE", "DARK TIDE", "SHADO TIDE"],
+      "addresses": ["Port of Bandar Abbas, Iran"],
+      "imo": "9876543",
+      "mmsi": "422123456",
+      "id_numbers": ["Flag: Iran", "Callsign: EPST1"],
+      "listing_date": "2023-01-15"
+    },
+    {
+      "name": "ARCTIC PHANTOM",
+      "sdn_type": "vessel",
+      "programs": ["DPRK"],
+      "aliases": ["ARCTIC GHOST", "ARKTIK PHANTOM"],
+      "addresses": ["Port of Nampo, North Korea"],
+      "imo": "8765432",
+      "mmsi": "445678901",
+      "id_numbers": ["Flag: North Korea", "Callsign: P5PH9"],
+      "listing_date": "2022-07-20"
+    },
+    {
+      "name": "CRIMSON NAVIGATOR",
+      "sdn_type": "vessel",
+      "programs": ["SDGT", "IRAN"],
+      "aliases": ["CRIMSON NAV", "RED NAVIGATOR"],
+      "addresses": ["Port of Latakia, Syria"],
+      "imo": "7654321",
+      "mmsi": "468234567",
+      "id_numbers": ["Flag: Syria", "Callsign: YKC22"],
+      "listing_date": "2021-11-03"
+    },
+    {
+      "name": "IRON VANGUARD",
+      "sdn_type": "vessel",
+      "programs": ["RUSSIA-EO14024"],
+      "aliases": ["IRON VAN", "ZHELEZNYI AVANGARD"],
+      "addresses": ["Port of Novorossiysk, Russia"],
+      "imo": "6543210",
+      "mmsi": "273456789",
+      "id_numbers": ["Flag: Russia", "Callsign: UBRV3"],
+      "listing_date": "2022-03-10"
+    },
+    {
+      "name": "SILENT REEF",
+      "sdn_type": "vessel",
+      "programs": ["DPRK"],
+      "aliases": ["SILENT RIFF", "TIKHIY RIF"],
+      "addresses": ["Port of Wonsan, North Korea"],
+      "imo": "5432109",
+      "mmsi": "445901234",
+      "id_numbers": ["Flag: North Korea"],
+      "listing_date": "2023-06-01"
+    },
+    {
+      "name": "ROGUE STAR TRADING LLC",
+      "sdn_type": "entity",
+      "programs": ["SDGT", "TCO"],
+      "aliases": ["ROGUE STAR TRADING", "RST LLC"],
+      "addresses": ["Office 412, Al Fahidi District, Dubai, UAE", "PO Box 12345, Dubai, UAE"],
+      "imo": null,
+      "mmsi": null,
+      "id_numbers": ["DUNS: 987654321", "TRN: AE100123456789012"],
+      "listing_date": "2024-03-01"
+    },
+    {
+      "name": "BLACK OCEAN SHIPPING CO",
+      "sdn_type": "entity",
+      "programs": ["IRAN"],
+      "aliases": ["BLACK OCEAN SHIP", "BOSH CO", "KARANLIK DENIZ NAKLIYAT"],
+      "addresses": ["No. 5, Enghelab Street, Tehran, Iran"],
+      "imo": null,
+      "mmsi": null,
+      "id_numbers": ["National ID: IR-2023-00451"],
+      "listing_date": "2022-09-14"
+    },
+    {
+      "name": "STORM PETREL",
+      "sdn_type": "vessel",
+      "programs": ["VENEZUELA-EO13850"],
+      "aliases": ["STORM PETRAL", "BUREVSTNIK"],
+      "addresses": ["Puerto Cabello, Venezuela"],
+      "imo": "4321098",
+      "mmsi": "775234567",
+      "id_numbers": ["Flag: Venezuela", "Callsign: YVSP2"],
+      "listing_date": "2023-08-22"
+    },
+    {
+      "name": "OBSIDIAN VOYAGER",
+      "sdn_type": "vessel",
+      "programs": ["IRAN", "SDGT"],
+      "aliases": ["OBSIDIAN VOY", "OBSIDIAN VOYAGE"],
+      "addresses": ["Strait of Hormuz operations"],
+      "imo": "3210987",
+      "mmsi": "422789012",
+      "id_numbers": ["Flag: Panama (illicit)", "Previous flag: Iran"],
+      "listing_date": "2023-12-05"
+    },
+    {
+      "name": "KAVEH MARITIME SERVICES",
+      "sdn_type": "entity",
+      "programs": ["IRAN-EO13846"],
+      "aliases": ["KAVEH MARINE", "KMS IRAN"],
+      "addresses": ["Shahid Beheshti Street, Bandar Abbas, Hormozgan Province, Iran"],
+      "imo": null,
+      "mmsi": null,
+      "id_numbers": ["IR Chamber of Commerce: 1234567890"],
+      "listing_date": "2021-04-17"
+    },
+    {
+      "name": "GHOST MERIDIAN",
+      "sdn_type": "vessel",
+      "programs": ["DPRK"],
+      "aliases": ["GHOST MERIDIAN I", "ПРИЗРАК МЕРИДИАН"],
+      "addresses": ["Unknown — flag of convenience"],
+      "imo": "2109876",
+      "mmsi": "445012345",
+      "id_numbers": ["Flag: Togo (illicit)", "Previous flag: North Korea"],
+      "listing_date": "2022-11-30"
+    },
+    {
+      "name": "FALCON CREST PETROLEUM",
+      "sdn_type": "entity",
+      "programs": ["SDGT", "IFCA"],
+      "aliases": ["FALCON CREST PETRO", "FCP HOLDINGS"],
+      "addresses": ["Suite 800, DIFC Gate Building, Dubai, UAE"],
+      "imo": null,
+      "mmsi": null,
+      "id_numbers": ["DIFC Registration: 0987654321"],
+      "listing_date": "2023-02-28"
+    },
+    {
+      "name": "NEPTUNE SHADOW",
+      "sdn_type": "vessel",
+      "programs": ["RUSSIA-EO14024"],
+      "aliases": ["NEP SHADOW", "TIEN NEPTUN"],
+      "addresses": ["Vladivostok, Russia"],
+      "imo": "1098765",
+      "mmsi": "273890123",
+      "id_numbers": ["Flag: Russia", "Callsign: UBNE7"],
+      "listing_date": "2022-04-05"
+    },
+    {
+      "name": "PYONGYANG STAR",
+      "sdn_type": "vessel",
+      "programs": ["DPRK", "DPRK-EO13687"],
+      "aliases": ["PYON STAR", "PJONGYANG STAR", "PYONGYAN STAR"],
+      "addresses": ["Nampo Outer Harbour, DPRK"],
+      "imo": "0987654",
+      "mmsi": "445345678",
+      "id_numbers": ["Flag: North Korea", "Callsign: P5YS3"],
+      "listing_date": "2020-05-12"
+    },
+    {
+      "name": "SILVER CRESCENT TANKERS LTD",
+      "sdn_type": "entity",
+      "programs": ["IRAN"],
+      "aliases": ["SILVER CRESCENT TANK", "HILAL GÜMÜŞ TANKERLER"],
+      "addresses": ["Mehmet Akif Ersoy Caddesi No. 7, Istanbul, Turkey"],
+      "imo": null,
+      "mmsi": null,
+      "id_numbers": ["Turkish Tax No: 1234567890", "Company Reg: TR-IST-2019-5678"],
+      "listing_date": "2021-08-03"
+    },
+    {
+      "name": "MAELSTROM QUEEN",
+      "sdn_type": "vessel",
+      "programs": ["VENEZUELA-EO13850"],
+      "aliases": ["MAELSTROM Q", "MÄLSTRÖM QUEEN"],
+      "addresses": ["La Guaira, Venezuela"],
+      "imo": "9081726",
+      "mmsi": "775567890",
+      "id_numbers": ["Flag: Venezuela"],
+      "listing_date": "2024-01-10"
+    },
+    {
+      "name": "CRESCENT MOON LOGISTICS",
+      "sdn_type": "entity",
+      "programs": ["HAMAS"],
+      "aliases": ["CRESCENT LOGISTICS", "HILALOGISTICS CO"],
+      "addresses": ["Al Rimal Quarter, Gaza", "Beirut, Lebanon (registered)"],
+      "imo": null,
+      "mmsi": null,
+      "id_numbers": ["NGO Reg: PS-2018-0042"],
+      "listing_date": "2018-10-20"
+    },
+    {
+      "name": "TEMPEST SPIRIT",
+      "sdn_type": "vessel",
+      "programs": ["IRAN", "SDGT"],
+      "aliases": ["TEMPEST SPRIT", "BOURASQUE ESPRIT"],
+      "addresses": ["Operating in Persian Gulf"],
+      "imo": "8172635",
+      "mmsi": "422456789",
+      "id_numbers": ["Flag: Iran", "Callsign: EPTE4"],
+      "listing_date": "2023-09-17"
+    },
+    {
+      "name": "NORTHERN GHOST",
+      "sdn_type": "vessel",
+      "programs": ["RUSSIA-EO14024"],
+      "aliases": ["NORTH GHOST", "SEVERNY PRIZRAK", "N GHOST"],
+      "addresses": ["St. Petersburg, Russia"],
+      "imo": "7263544",
+      "mmsi": "273678901",
+      "id_numbers": ["Flag: Russia", "Callsign: UBNG5", "IMO Verified: 7263544"],
+      "listing_date": "2022-06-18"
+    },
+    {
+      "name": "ABYSSAL TRADER",
+      "sdn_type": "vessel",
+      "programs": ["DPRK", "DPRK-EO13722"],
+      "aliases": ["ABYSSAL TRADE", "GLUBOKOVODNY TORGOVEC"],
+      "addresses": ["Chongjin, DPRK"],
+      "imo": "6354728",
+      "mmsi": "445789012",
+      "id_numbers": ["Flag: North Korea", "Previous flag: Sierra Leone (illicit)"],
+      "listing_date": "2021-02-09"
+    }
+  ]
+}
